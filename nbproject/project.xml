@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.php.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/php-project/1">
+            <name>FolkFiok</name>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>adatokatAz</word>
+            <word>Bakonyjákó</word>
+            <word>bemutató</word>
+            <word>betyármese</word>
+            <word>Betyárutakon</word>
+            <word>betyáróra</word>
+            <word>Cégünkről</word>
+            <word>Események</word>
+            <word>faluból</word>
+            <word>FolkFiók</word>
+            <word>Győr</word>
+            <word>Kezdőlap</word>
+            <word>koncentráció</word>
+            <word>Könyvek</word>
+            <word>Letöltés</word>
+            <word>stránka</word>
+            <word>Vasarlas</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>

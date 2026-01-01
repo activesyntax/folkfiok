@@ -1,0 +1,480 @@
+.theme-color-light {
+    color: #9fcc7f;
+}
+
+.theme-color-red {
+    color: #f1978e;
+}
+
+.theme-color-green {
+    color: #5C8F35;
+}
+
+.theme-text-light {
+    color: #777;
+    font-size: small;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.normal-font {
+    font-style: normal;
+}
+
+.theme-text-light-italic{
+    color: #777;
+    font-style: italic;
+}
+
+.right-nav-box {
+    margin-bottom: 30px;
+    margin-right: 15px;
+    padding: 15px 0px 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 1px 0px #ccc; 
+    -webkit-box-shadow: 2px 2px 1px 0px #ccc;
+    -moz-box-shadow: 2px 2px 1px 0px #ccc;
+
+    background: #f8f8f8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff, #efefef); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #efefef); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #efefef); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #f1f1f1); /* Standard syntax */
+    /*background: url('../img/bg/gray_jean.png');*/
+}
+
+.right-nav-box h2 {
+    font-variant: normal;
+    margin-top: 0px;
+
+    color: #555;
+    /*color: #476d2c;*/
+    margin-bottom: 15px; 
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.right-nav-box h2 span {
+
+    /*padding-bottom: 5px;*/
+    /*border-bottom: 2px solid #B9DAA2;*/
+}
+
+ul.contact-list li {
+    margin-top: 5px;
+}
+
+
+.theme-color-dark {
+    color: #555;
+}
+
+ul.fa-ul-bullet {
+    margin-left: 20px;
+}
+
+i.fa-bullet {
+    font-size: 9px; 
+    padding: 5px ;
+}
+
+.shadow {
+    text-shadow: 1px 1px #888;
+}
+
+/* HEADER LINKS */
+
+a.header-link, a.header-link:visited {
+    color: #333;
+    /*color: #39601f;*/
+    /*border-bottom: 1px solid red;*/
+}
+
+a.header-link:hover span,
+a.header-link:hover, a.header-link:focus
+{
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+
+
+/* ICONS */
+i {
+    margin-right: 10px;
+}
+
+
+
+/* LINK GROUP */
+
+.link-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-group h5 a, .link-group h5 a:visited
+{
+    font-weight: bold;
+    padding-bottom: 1px;
+    margin-bottom: 9px;    
+    color: #333 !important;
+
+}
+
+.link-group h5 a:hover, .link-group h5 a:focus
+
+{
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+a.secondary-link, a.secondary-link:visited, 
+.link-group ul li a, .link-group ul li a:visited {
+    color: #555 !important;
+    font-style: normal;
+    font-size: 15px;
+    text-shadow: none;
+}
+
+a.secondary-link:hover, a.secondary-link:active, 
+.link-group ul li a:hover, .link-group ul li a:active {
+    /*color: #024702 !important;*/
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+    /*color: black !important;*/
+}
+
+/* SOLID BORDER AND SOLID BOX */
+.solid-border {
+    border: 1px solid #555;
+}
+
+.solid-box {
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    padding: 10px 20px 15px 20px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.solid-box h5 {
+    border-bottom: 1px dashed #aaa;
+}
+
+.thumbnail-box {
+    /*border: 1px solid #ccc;*/
+    /*background: #f1f1f1;*/
+    /*padding: 10px 10px 10px 10px;*/
+    /*border-radius: 10px;*/
+}
+
+.thumbnail-box img {
+    margin: 10px 15px 10px 0px;
+}
+
+.img-caption {
+    margin-top: 10px;
+    font-style: italic;
+}
+/* BUTTON CUSTOMIZATION */
+
+/*  Primary button  */
+.btn-primary { 
+    color: #FFFFFF; 
+    /*background-color: #269123;*/ 
+    border-color: #224520; 
+    font-size: 14px;
+
+    background: #5c9a32; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5c9a32, #39601f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5c9a32, #39601f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5c9a32, #39601f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5c9a32, #39601f);  /* Standard syntax */
+} 
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.btn-primary.focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open .dropdown-toggle.btn-primary { 
+    color: #FFFFFF; 
+    background: #5c9a32; 
+    border-color: #224520; 
+} 
+
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+    background-image: none; 
+} 
+
+.btn-primary.disabled, 
+.btn-primary[disabled], 
+fieldset[disabled] .btn-primary, 
+.btn-primary.disabled:hover, 
+.btn-primary[disabled]:hover, 
+fieldset[disabled] .btn-primary:hover, 
+.btn-primary.disabled:focus, 
+.btn-primary[disabled]:focus, 
+fieldset[disabled] .btn-primary:focus, 
+.btn-primary.disabled:active, 
+.btn-primary[disabled]:active, 
+fieldset[disabled] .btn-primary:active, 
+.btn-primary.disabled.active, 
+.btn-primary[disabled].active, 
+fieldset[disabled] .btn-primary.active { 
+    background-color: #269123; 
+    border-color: #224520; 
+} 
+
+.btn-primary .badge { 
+    color: #269123; 
+    background-color: #FFFFFF; 
+}
+
+
+/* Default button */
+
+.btn-default { 
+    color: #555; 
+
+    border-color: #aaa; 
+} 
+
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active, 
+.btn-default.active, 
+.open .dropdown-toggle.btn-default {    
+    color: #555;  
+    border-color: #aaa; 
+} 
+
+
+/* End of BUTTON CUSTOMIZATION */
+
+
+.look-inside {
+    margin: 20px 0px 20px 0px;
+
+}
+
+.look-inside img 
+{
+    max-height: 86px; 
+}
+
+/*.child {
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+}*/
+
+/*.dots { 
+  background: url('../img/dot.png') repeat-x bottom; 
+}
+.field {
+  background-color: #FFFFFF;
+} */
+
+
+/* TABLE OF CONTENTS */
+
+.table-of-contents .modal-dialog{
+    max-width: 480px;
+}
+
+.table-of-contents table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.table-of-contents h3,
+.table-of-contents .modal-body h4 {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.page-number {
+    text-align: right;
+}
+
+.table-book-data td,
+.table-of-contents td {
+    padding: 6px;
+}
+
+.table-of-contents tr{
+    /*border-bottom: 1px solid #ccc;*/
+}
+
+blockquote{
+    font-size: inherit;
+    font-style: italic;
+
+}
+
+.table-book-data {
+    margin-top: 15px;
+}
+.table-book-data td {
+    padding: 3px 8px 3px 0px;
+    font-size: 12px;
+}
+
+td.data-label{
+    font-weight: bold;
+    vertical-align: top;
+
+}
+
+.galery img {
+    max-height: 100px;
+    margin-top: 15px;
+
+}
+
+.centered-thing {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-on-the-page{
+    margin: 50px 0px 50px 0px;
+}
+
+.list-group-item img {
+    max-height: 50px;
+    padding-right: 20px;
+}
+
+ul.ul-bullet {
+    list-style-type: disc; 
+    margin-left: 15px;
+}
+
+div.spacer {  
+    font-size: 0; 
+    height: 5px;
+    line-height: 0;
+}
+
+
+.shareing-panel {
+    margin-top: 50px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+
+}
+.shareing-panel h6 {
+    font-size: small; 
+    margin: 8px 20px 0px 0px;
+    font-weight: bold;
+
+}
+
+.shareing-panel a {
+    margin-right: 10px;
+}
+
+textarea.ng-invalid.ng-dirty,
+input.ng-invalid.ng-dirty {
+    border: 1px solid red;
+}
+
+div.error-message {
+    color:#cc0000;
+    padding-top: 3px;
+}
+
+.success-dialog img {
+    padding-top: 10px;
+    max-height: 70px;
+}
+
+.solid-line {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #B9DAA2;
+
+}
+#requester-email {
+    font-weight: bold;
+
+}
+
+.shopping-cart-table {
+    /*width: 100%;*/
+    margin-top: 20px;
+
+}
+
+.shopping-cart-table th {
+    color: #888;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.shopping-cart-table td  {
+    vertical-align: middle;
+    /*padding: 8px 10px 8px 10px;*/
+    /*border-bottom:   1px solid #ccc;*/
+    /*background: red;*/
+}
+
+.shopping-cart-table td img {
+    max-height: 90px;
+}
+
+.youtube-play {
+    background-image:url('../img/youtube.png');
+    background-repeat:no-repeat;
+    width:50px;
+    height:50px;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+
+.important-text 
+{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+
+}
+
+.download-item {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.book-contents {
+    margin-bottom: 30px;
+}
+.book-contents td {
+    padding: 0px 60px 5px 0px;
+}
+
+.readable-number {
+
+  font-family: 'Taviraj', serif;
+}
+
+.smaller-text {
+    font-size: 14px; 
+}

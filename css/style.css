@@ -1,0 +1,497 @@
+/*@font-face {
+    font-family: AleoRegular;
+    src: url(fonts/aleo/Regular/aleo-regular-webfont.woff);
+}*/
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+
+
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Libre Baskerville', serif; 
+    /*font-family: 'AleoRegular', serif;*/ 
+    font-size: 15px;   
+    line-height: 1.5;  
+    background-color: #fff;
+    /*background: url('../img/bg/gray_jean.png');*/
+    /*background: url('../img/bg/grey.png');*/
+    /*background: url('../img/bg/grunge_wall.png');*/
+    /*background: url('../img/bg/grunge_wall.png');*/
+    background: url('../img/bg/lightpaperfibers.png');
+    /*background: url('../img/bg/lightpaperfibers_@2X.png');*/
+    /*background: url('../img/bg/linedpaper.png');*/
+    /*background: url('../img/bg/natural_paper.png');*/
+    /*background: url('../img/bg/paper_fibers.png');*/
+    /*background: url('../img/bg/pw_maze_white.png');*/
+    /*background: url('../img/bg/straws.png');*/
+    /*background: url('../img/bg/subtle_dots.png');*/
+    /*background: url('../img/bg/white_wall.png');*/
+    /*background: url('../img/bg/white_wall2.png');*/
+
+}
+
+/* WORKAROUND: fixed navbar won't shift to right when modal dialog is opened (Bootstrap bug)*/
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+    padding-right: 13px;
+}
+
+.jumbotron {
+    background: #ccc url("../img/sziluett2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 519px;
+}
+
+.jumbotron h1 {
+
+    font-size: 50px;
+    margin: 70px 0px 40px 0px;
+}
+
+.page-container{
+    padding: 40px 0px 0px 0px;
+
+
+}
+.page-content {
+    text-align: justify;
+    font-size: 16px;
+    padding: 0px 50px 0px 20px;
+}
+
+
+.page-content h1{
+    margin-top: 0px;
+    font-size: 32px;
+    color: #555;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #B9DAA2;
+    font-variant: small-caps;
+}
+
+.page-content h1 i {
+    color: green;
+    display: none;
+}
+.page-content h2 {
+    margin-top: 0px;
+    font-size: 28px;
+    color: #111;
+    text-align: left;
+}
+.page-content h2.media-heading {
+    border-bottom: none;
+    font-style: normal;
+}
+
+a.normal-link, a.normal-link:visited {
+
+    /*font-weight: bold;*/
+    /*color: #426F42;*/
+    /*color: #476d2c;*/
+    /*color: #537f34;*/
+    color: #5C8F35;
+    font-style: normal;
+    text-shadow: 0px 0px #6ba343;
+}
+
+a.normal-link:hover, a.normal-link:focus {
+    text-decoration: none;
+    border-bottom: 1px solid #5C8F35;
+
+}
+
+.citation-of-the-week p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.page-content-stessed {
+    padding: 50px 0px 50px 0px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background: url('../img/bg/gray_jean.png');
+}
+
+.page-container .media-left img {
+    max-width: 170px;
+    margin-right: 30px;
+}
+
+.page-right-navigation {
+    /*border-left: 1px solid #ccc;*/
+}
+
+.breadcrumb {
+    padding: 8px 0px 0px 0px;
+    background: transparent;
+    font-size: 14px;
+    margin: 0px;
+
+}
+
+.breadcrumb a {
+    color: #333;
+}
+
+.breadcrumb>li+li:before {
+    color: #ccc; 
+    content: "\276F\00a0";
+    padding: 3px;
+}
+
+.breadcrumb img {
+    max-height: 25px;
+}
+/*.breadcrumb img::after {
+    content: "/";
+}*/
+
+/* Navbar customization */
+
+.navbar-default {
+    /*background-color: #f8f8f8;*/
+    border-color: #e1e1e1;
+
+    background: #f8f8f8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#efefef, #f8f8f8, #efefef); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#efefef, #f8f8f8, #efefef); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#efefef, #f8f8f8, #efefef); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#efefef, #f8f8f8, #efefef); /* Standard syntax */
+    /*font-size: 15px;*/
+    /*letter-spacing: 1px;*/
+
+    /*     background: url('../img/bg/gray_jean.png');*/
+    /*background-image:  url('../img/bg/gray_jean.png'), linear-gradient(#efefef, #f8f8f8, #efefef);  W3C */
+
+
+}
+.navbar-default .navbar-brand {
+    color: #555555;    
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #555555;
+}
+.navbar-default .navbar-text {
+    color: #555555;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #555555;
+    /*font-variant: small-caps;*/
+    /*letter-spacing: 1px;*/
+    text-transform: uppercase;
+    font-size: small;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #555555;
+    border-bottom: solid 2px #B9DAA2;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555555;
+    background-color: #ebebeb;
+    border-bottom: solid 2px #B9DAA2;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555555;
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-toggle {
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #555555;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #555555;
+}
+.navbar-default .navbar-link {
+    color: #555555;
+}
+.navbar-default .navbar-link:hover {
+    color: #555555;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #555555;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #555555;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555555;
+        background-color: #e7e7e7;
+    }
+}
+
+/* END OF Navbar Customization */
+
+/* Logo Customization */ 
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 12px;
+    width: auto;
+}
+
+.navbar-brand {
+    height: 60px; /* = 20 + 2*25 */
+}
+
+.nav >li >a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-toggle {
+    padding: 10px;
+    margin: 15px 15px 15px 0;
+}
+
+/* END OF Logo Customization */ 
+
+/* Shopping button */
+#btn-shopping {
+    margin-top: 0px;
+    padding:  6px 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+
+/* Marketing message */
+
+#marketing-message {
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #dddddd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #dddddd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #dddddd); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #dddddd); /* Standard syntax */
+    border-bottom: 1px solid #ccc;
+    padding: 130px 0px 150px 0px;
+    text-align: center;
+
+    /*    background-image: url('../img/jumbotron.jpg');
+        background-size: cover;*/
+
+}
+
+#marketing-message p {
+    font-size: x-large;
+}
+
+#marketing-message img {
+    max-height: 200px;
+    /*margin-top: 50px;*/
+}
+
+#marketing-message-2 h2 {
+    color: #555;
+    margin: 0px 0px 0px 0px;
+    font-weight: 100;
+
+}
+
+a.marketing-link {
+    text-decoration: none;
+    color: #555555;    
+    display: block;
+    margin: 0px 10px 0 10px;
+
+
+
+}
+
+a.marketing-link:hover,
+a.marketing-link:focus {
+    text-decoration: none;
+
+
+}
+
+a.marketing-link:hover h1 { 
+    border-bottom: solid 3px #8dc168;
+    color: #333;
+}
+
+a.marketing-link h1 {   
+    font-size: 24px;
+    font-variant: small-caps;
+    padding-bottom: 10px;  
+    border-bottom: solid 3px #B9DAA2;
+
+}
+
+#marketing-message .short-description {
+    text-align: center; 
+    padding: 0px;
+}
+
+/* END OF Marketing message */
+
+
+/* Books on homepage*/
+
+#books-on-homepage img {
+    max-height: 280px; 
+}
+
+#books-on-homepage h3 {
+    text-align: center;
+}
+
+#books-on-homepage p {
+    text-align: justify;
+}
+
+.book-price {
+    background: #024702;
+    color: white;
+    font-weight: bold;
+    padding: 3px 12px 3px 12px;
+    border-radius: 4px;
+    margin-right: 2px; 
+    font-size: 15px;
+}
+
+/* END OF Books on home page*/
+
+/* Footer */
+footer {
+    background: #f1f1f1;
+    padding: 10px 0px 15px 0px;
+    margin: 50px 0px 0px 0px;
+    border-top: 1px #ccc solid;
+    background: url('../img/bg/gray_jean.png');
+}
+
+.footer-social-icons 
+{
+    margin: 10px 0px 0px 0px;  
+}
+
+.footer-about-company
+{
+    margin-top: 10px;
+}
+
+/* END OF Footer */
+
+/* Book presentation */
+
+#book-presentation-home {
+    padding: 50px 0px 0px 0px;    
+}
+
+#book-presentation-home h2 {
+    margin-top: 0px;    
+}
+
+/* END OF Book presentation*/
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* About company */
+#about-company-home {
+    padding: 20px 0px 20px 0px;
+}
+
+#about-company-home img {
+    padding: 15px 0px 15px 0px; 
+}
+
+#about-company-home p {
+    text-align: justify;
+
+}
+
+
+/* END OF About company*/
+
+/* Books on books page*/
+
+.book {margin-top: 15px;}
+.book h4 {
+    /*color: #21851D;*/
+    font-weight: bold;
+}
+
+.book p.author {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.book .book-description img {
+    margin: 15px 0px 15px 0px;
+}
+
+.book ul li {
+    padding: 10px 0px 10px 10px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-right: 30px;
+}
+
+.book .book-img-col img {
+    max-width: 170px;
+    margin-right: 30px;
+}
+
+
+.media-heading {
+    text-align: left;
+}
+.event-info{
+    margin: 10px 0px 15px 0px;
+}
+
+.event-info span {
+    margin-right: 20px;
+}
+
+.contacts img {
+    max-height: 200px;
+}
+
+.contact {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.aszf{
+    overflow: auto; 
+    height: 400px;
+    padding: 15px 15px 15px 15px;
+    margin-right: 3px;
+}
+
+.aszf h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
