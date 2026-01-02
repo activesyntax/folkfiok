@@ -1,6 +1,6 @@
 # Folk Fiók – Heritage Education Website
 
-![Folk Fiók – Heritage Education Website Screenshot](public/img/folkfiok-screenshot-01.png)
+![Folk Fiók – Heritage Education Website Screenshot](/img/folkfiok-screenshot.png)
 
 ## Overview
 
